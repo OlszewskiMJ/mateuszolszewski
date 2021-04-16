@@ -76,9 +76,7 @@ body {
   }
 
   #contactsbutton,
-  #githubbutton {
-    cursor: pointer;
-  }
+
 
   #framemasked {
     clip-path: inherit;

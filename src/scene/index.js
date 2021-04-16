@@ -46,14 +46,8 @@ export default function scene(props) {
 
   React.useEffect(() => {
     document.querySelector("#contactsbutton").addEventListener("click", () => {
-      window.open("https://www.linkedin.com/in/albinotonnina/");
+      window.open("https://www.linkedin.com/in/mateuszolszewski1/");
     });
   });
-  React.useEffect(() => {
-    document.querySelector("#githubbutton").addEventListener("click", () => {
-      window.open("https://github.com/albinotonnina/albinotonnina.com/");
-    });
-  });
-
   return <Svg width={props.width} height={props.height} />;
 }

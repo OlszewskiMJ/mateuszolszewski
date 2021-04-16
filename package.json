@@ -1,10 +1,10 @@
 {
-  "name": "albinotonnina",
+  "name": "mateuszolszewski",
   "version": "4.0.0",
   "license": "CC-BY-NC-ND-4.0",
   "homepage": "https://github.com/albinotonnina/albinotonnina.com",
   "author": {
-    "name": "Albino Tonnina",
+    "name": "Mateusz Olszewski",
     "email": "albinotonnina@gmail.com",
     "url": "http://www.albinotonnina.com"
   },
@@ -26,8 +26,7 @@
     "web-vitals": "^1.0.1"
   },
   "repository": {
-    "type": "git",
-    "url": "git@github.com:albinotonnina/albinotonnina.com.git"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

@@ -18,7 +18,7 @@ export default (_, { analyze }) => {
   const config = {
     devtool: "source-map",
     devServer: {
-      host: "0.0.0.0",
+      host: "127.0.0.1",
       hot: true,
     },
     resolve: {

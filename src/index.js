@@ -12,16 +12,3 @@ ReactDOM.render(
   rootElement
 );
 
-function sendToGoogleAnalytics({ name, delta, id }) {
-  // eslint-disable-next-line no-undef
-  gtag("event", name, {
-    event_category: "Web Vitals",
-    value: Math.round(name === "CLS" ? delta * 1000 : delta),
-    event_label: id,
-    non_interaction: true,
-  });
-}
-
-getCLS(sendToGoogleAnalytics);
-getFID(sendToGoogleAnalytics);
-getLCP(sendToGoogleAnalytics);
